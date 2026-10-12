@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.db
+*.sqlite3
+# 运行产物不入库（样例数据脚本可随时重新生成）
+task1_excel_report/sales_raw.xlsx
+task1_excel_report/report.xlsx
+task1_excel_report/tests/*.xlsx
+!task1_excel_report/tests/.gitkeep
+.DS_Store
